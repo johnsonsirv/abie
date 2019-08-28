@@ -5,5 +5,9 @@ require_relative './config/environment'
 #end
 
 use Rack::MethodOverride
+use DiagnosisController
+use DiseaseController
+use InjuryController
+use SymptomController
 
 run ApplicationController
