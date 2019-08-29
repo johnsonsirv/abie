@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_27_161949) do
+ActiveRecord::Schema.define(version: 2019_08_28_211132) do
 
   create_table "diagnosis", force: :cascade do |t|
     t.integer "injury_id"
@@ -28,7 +28,6 @@ ActiveRecord::Schema.define(version: 2019_08_27_161949) do
     t.string "description"
     t.integer "injury_id"
     t.string "symptoms"
-    t.string "treatment"
     t.string "affected_area"
     t.string "risk_age"
     t.datetime "created_at", null: false
@@ -67,6 +66,7 @@ ActiveRecord::Schema.define(version: 2019_08_27_161949) do
     t.string "lifestyle"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "disease_code"
     t.index ["code"], name: "index_treatment_on_code", unique: true
   end
 
