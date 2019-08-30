@@ -1,7 +1,8 @@
 class SymptomController < ApplicationController
 	
-	get  '/symptoms/:injury_id' do
-		# return Symptom.find_by(:injury_id) to json
+	get  '/symptoms/:injury_id' do |injury_id|
+		symptoms = Symptom.select(:code, :description, :injury_id).take
+		json symptoms
 	end
 		
 end

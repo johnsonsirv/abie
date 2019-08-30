@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
 gem 'sinatra'
+gem 'sinatra-contrib',require: false
 gem 'rerun', '~> 0.11.0'
 gem 'activerecord' , :require => 'active_record'
 gem 'sinatra-activerecord' , :require => 'sinatra/activerecord'
