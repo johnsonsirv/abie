@@ -1,7 +1,8 @@
 class InjuryController < ApplicationController
 	
-	get '/injury/category' do
-		#return Injury.all to json 
+	get '/injury' do
+		injuries = Injury.all
+		json injuries
 	end
 	
 end
