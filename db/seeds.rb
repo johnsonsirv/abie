@@ -1,4 +1,5 @@
-injuries = [	{name: 'abdominal'}, {name: 'bone'},{name: 'chest'}, {name: 'head'},{name: 'muscle'}, {name: 'skin'}	]
+injuries = [	{name: 'abdominal', code: 1}, {name: 'bone', code: 2},{name: 'chest', code: 3}, 
+	{name: 'head', code: 4},{name: 'muscle', code: 5}, {name: 'skin', code: 6}	]
 
 symptoms = [{:code=>"b1", :description=>"loss of function of the affected area", :injury_id=>2}, {:code=>"b2", :description=>"discontinuity of the bone", :injury_id=>2}, {:code=>"b3", :description=>"severe pain", :injury_id=>2}, {:code=>"b4", :description=>"experience of shock", :injury_id=>2}, {:code=>"b5", :description=>"swelling up of affected area", :injury_id=>2}, {:code=>"b6", :description=>"exposed bones", :injury_id=>2}, {:code=>"b7", :description=>"hemorrhaging/bleeding", :injury_id=>2}, {:code=>"m8", :description=>"development of spasm", :injury_id=>5}, {:code=>"m9", :description=>"tenderness to touch", :injury_id=>5}, {:code=>"m10", :description=>"swelling up of affected area", :injury_id=>5}, {:code=>"m11", :description=>"severe pain", :injury_id=>5}, {:code=>"m12", :description=>"violent contraction of the affected area", :injury_id=>5}, {:code=>"m13", :description=>"dehydration in the field of play", :injury_id=>5}, {:code=>"a14", :description=>"excessive abdominal", :injury_id=>1}, {:code=>"c15", :description=>"difficulty in breathing", :injury_id=>3}, {:code=>"c16", :description=>"sharp pain and tenderness", :injury_id=>3}, {:code=>"c17", :description=>"abnormal movement of the rib cage with breathing", :injury_id=>3}, {:code=>"h18", :description=>"temporary loss of vision", :injury_id=>4}, {:code=>"h19", :description=>"temporary loss of consciousness", :injury_id=>4}, {:code=>"h20", :description=>"loss of balance", :injury_id=>4}, {:code=>"h21", :description=>"temporary changes in behavioror attention or memory", :injury_id=>4}, {:code=>"h22", :description=>"an intense headache or feeling of fullness or pressure in the head", :injury_id=>4}, {:code=>"h23", :description=>"sleepiness or confusion or feeling like you are in a fog", :injury_id=>4}, {:code=>"h24", :description=>"dizziness", :injury_id=>4}, {:code=>"h25", :description=>"ringing in your ears", :injury_id=>4}, {:code=>"h26", :description=>"difficulty remembering the event that caused the injury", :injury_id=>4}, {:code=>"h27", :description=>"vomiting", :injury_id=>4}, {:code=>"h28", :description=>"slurred speech", :injury_id=>4}, {:code=>"h29", :description=>"changes in speech", :injury_id=>4}, {:code=>"h30", :description=>"difficulty responding to questions", :injury_id=>4}, {:code=>"h31", :description=>"difficulty understanding conversations", :injury_id=>4}, {:code=>"h32", :description=>"severe concussion", :injury_id=>4}, {:code=>"h33", :description=>"changes in cognition such as alterations in personality or reductions in intelligence", :injury_id=>4}, {:code=>"h34", :description=>"difficulty understanding speech", :injury_id=>4}, {:code=>"h35", :description=>"memory challenges", :injury_id=>4}, {:code=>"h36", :description=>"localized numbness or tingling", :injury_id=>4}, {:code=>"h37", :description=>"difficulty coordinating movements", :injury_id=>4}, {:code=>"h38", :description=>"difficulty speaking", :injury_id=>4}, {:code=>"h39", :description=>"problems with attention", :injury_id=>4}, {:code=>"s40", :description=>"swelling or a lump at the site of the bruise or near it", :injury_id=>6}, {:code=>"s41", :description=>"decolourisation of the affected part of the skin", :injury_id=>6}, {:code=>"s42", :description=>"tearing of soft tissue", :injury_id=>6}, {:code=>"s43", :description=>"hemorrhaging and bleeding", :injury_id=>6}, {:code=>"m44", :description=>"tearing of soft tissue", :injury_id=>5}, {:code=>"m45", :description=>"hemorrhaging and bleeding", :injury_id=>5}, {:code=>"h46", :description=>"tearing of soft tissue", :injury_id=>4}, {:code=>"h47", :description=>"hemorrhaging and bleeding", :injury_id=>4}, {:code=>"b48", :description=>"tearing of soft tissue", :injury_id=>2}, {:code=>"b49", :description=>"hemorrhaging and bleeding", :injury_id=>2}, {:code=>"b50", :description=>"loss of motion", :injury_id=>2}, {:code=>"b51", :description=>"pain during movement", :injury_id=>2}, {:code=>"b52", :description=>"numbness around the area", :injury_id=>2}, {:code=>"b53", :description=>"tingling feeling", :injury_id=>2}, {:code=>"h54", :description=>"a headache or pain at the point of impact", :injury_id=>4}, {:code=>"h55", :description=>"a bump or bruise", :injury_id=>4}, {:code=>"h56", :description=>"bleeding from the ears or nose or eyes", :injury_id=>4}, {:code=>"h57", :description=>"clear fluid leaking from the ears or nose", :injury_id=>4}, {:code=>"h58", :description=>"feeling drowsy or confused or irritable", :injury_id=>4}, {:code=>"h59", :description=>"convulsions", :injury_id=>4}, {:code=>"h60", :description=>"becoming unconscious", :injury_id=>4}]
 
@@ -12,16 +13,16 @@ injuries.each do |i|
 	Injury.create(i)
 end
 
-symptoms.each do |s|
-	Symptom.create(s)
-end
+# symptoms.each do |s|
+# 	Symptom.create(s)
+# end
 
-diseases.each do |d|
-	Disease.create(d)
-end
+# diseases.each do |d|
+# 	Disease.create(d)
+# end
 
-treatment.each do |t|
-	Treatment.create(t)
-end
+# treatment.each do |t|
+# 	Treatment.create(t)
+# end
 
 
