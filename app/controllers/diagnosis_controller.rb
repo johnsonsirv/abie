@@ -22,9 +22,10 @@ class DiagnosisController < ApplicationController
 		
 		
 	end
-	
-	get '/diagnoses/inference' do
-		# return
+
+	get '/diagnoses' do
+		injuries = Diagnosis.select(:id, :player, :injury, :disease).all
+		json injuries
 	end
 	
 	def json_params
