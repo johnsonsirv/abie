@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_02_141000) do
+ActiveRecord::Schema.define(version: 2019_09_02_150502) do
 
-  create_table "diagnosis", force: :cascade do |t|
+  create_table "diagnoses", force: :cascade do |t|
     t.string "injury"
     t.string "disease"
     t.string "symptoms"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 2019_09_02_141000) do
     t.text "inference"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "treatment"
+    t.text "lifestyle"
   end
 
   create_table "diseases", force: :cascade do |t|
