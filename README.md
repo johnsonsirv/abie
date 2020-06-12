@@ -1,14 +1,14 @@
 <h1 align="center">ABIE</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/johnsonsirv/facebook-clone#readme" target="_blank">
+  <a href="https://github.com/johnsonsirv/abie#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/johnsonsirv/facebook-clone/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/johnsonsirv/abie/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/johnsonsirv/facebook-clone/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/johnsonsirv/facebook-clone" />
+  <a href="https://github.com/johnsonsirv/abie/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/johnsonsirv/abie" />
   </a>
   <a href="https://twitter.com/vokeugo" target="_blank">
     <img alt="Twitter: vokeugo" src="https://img.shields.io/twitter/follow/vokeugo.svg?style=social" />
