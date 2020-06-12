@@ -26,11 +26,11 @@
 
 </p>
 
-![](./docs/abie-architecture.PNG)
+![](https://github.com/johnsonsirv/abie/blob/master/docs/abie-architecture.PNG)
 
-![](./docs/abie-endpoints.PNG)
+![](https://github.com/johnsonsirv/abie/blob/master/docs/abie-endpoints.PNG)
 
-![](./docs/abie-endpoints-2.PNG)
+![](https://github.com/johnsonsirv/abie/blob/master/docs/abie-endpoints-2.PNG)
 
 ### Future implementations:
 
@@ -52,13 +52,13 @@ ABIE is hosted on [Heroku](https://heroku.com) and can be tested using [Postman]
 
 ### Live URL: https://abren-api.herokuapp.com
 
-![](./docs/postman-injury.PNG)
+![](https://github.com/johnsonsirv/abie/blob/master/docs/postman-injury.PNG)
 
-![](./docs/postman-symptoms.PNG)
+![](https://github.com/johnsonsirv/abie/blob/master/docs/postman-symptoms.PNG)
 
-![](./docs/postman-post-diagnose.PNG)
+![](https://github.com/johnsonsirv/abie/blob/master/docs/postman-post-diagnose.PNG)
 
-![](./docs/postman-diagnoses.PNG)
+![](https://github.com/johnsonsirv/abie/blob/master/docs/postman-diagnoses.PNG)
 
 ### Contributor(s)
 
